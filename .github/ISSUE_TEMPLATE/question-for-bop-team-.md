@@ -7,10 +7,12 @@ assignees: ''
 
 ---
 
-### Question
+### Write your question on the line below this one
 
-### How you want to be contacted?
+### How would you like to be contacted?
+Add an x to one of the following check boxes. 
 
+- [x] Example
 - [ ] Email
 - [ ] CfA Slack
 - [ ] GitHub handle
