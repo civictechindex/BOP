@@ -6,8 +6,8 @@ The Brigade Organizer’s Playbook (BOP) Extension Project is an initiative of t
 The BOP Extension Project seeks to build on the existing product and improve its value as a communal, high-value resource for sharing best practices in topic areas such as fundraising, recruiting members, running remote brigades, project management, setting and achieving DEI goals, etc.
 
 🌐 This project is 100% open source, transparent and community led
-Our work flow is available online at our [GitHub Project Broad](https://github.com/codeforamerica/brigade-playbook/projects/1) 
-As we do our research we will be adding the P&P assets to this [spreadsheet](https://docs.google.com/spreadsheets/d/1N0VSDhYyy5WhX_z18Q0RvLlGO29JGGdMxVsD4X3nFYs/edit?usp=sharing)
+- Our work flow is available online at our [GitHub Project Broad](https://github.com/codeforamerica/brigade-playbook/projects/1) 
+- As we do our research we will be adding the P&P assets to this [spreadsheet](https://docs.google.com/spreadsheets/d/1N0VSDhYyy5WhX_z18Q0RvLlGO29JGGdMxVsD4X3nFYs/edit?usp=sharing)
 
 **Project context**
 Each of the 80+ Code for America Brigades generates valuable learnings in topic areas such as fundraising, recruiting members, running remote brigades, project management, setting and achieving DEI goals. What worked and how to replicate some of these are documented in the current Brigade Organizer’s Playbook.
