@@ -40,6 +40,8 @@ For more information the initial SOW and its milestones, refer to: [Brigade Orga
         - Sam H. [CfA Slack](https://codeforamerica.slack.com/team/U019C4LERSM)
    - Special Projects Coordinator
       - Naomi Chao [CfA Slack](https://codeforamerica.slack.com/team/U018DSK3231)
+   - UX Research Team Lead
+      - Marianne Miranda CfA Slack
 
 
 
