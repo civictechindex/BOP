@@ -37,13 +37,16 @@ For more information the initial SOW and its milestones, refer to: [Brigade Orga
    - CfA Brigade Network team representative
       - Will Pfeffer [email](wpfeffer@codeforamerica.org) or [CfA Slack](https://codeforamerica.slack.com/team/U014MEJV6KT)
    - Product Manager 
-        - Sam H. [CfA Slack](https://codeforamerica.slack.com/team/U019C4LERSM)
-   - Special Projects Coordinator
-      - Naomi Chao [CfA Slack](https://codeforamerica.slack.com/team/U018DSK3231)
+      - Sam H. [CfA Slack](https://codeforamerica.slack.com/team/U019C4LERSM)
    - UX Research Team Lead
-      - Marianne Miranda [CfA Slack](https://cfa.slack.com/archives/D01DD2NJG2C)
-
-
-
+      - Marianne Miranda [CfA Slack](https://codeforamerica.slack.com/team/U01ASEG8HK5)
+   - Communication & UX Researcher 
+      - Raquel Nishijima [CfA Slack](https://codeforamerica.slack.com/team/U01CV3QA2CW)
+   - Data Scientist 
+      - Jon Kropko [CfA Slack](https://codeforamerica.slack.com/team/UL9U380TH)
+   
+### Past Contributors, with thanks to:
+- Special Projects Coordinator
+      - Naomi Chao [CfA Slack](https://codeforamerica.slack.com/team/U018DSK3231)
 
 _Volunteer management is being provided by the Hack for LA - Civic Tech Structure team._
