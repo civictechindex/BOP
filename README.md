@@ -41,7 +41,7 @@ For more information the initial SOW and its milestones, refer to: [Brigade Orga
    - UX Research Team Lead
       - Marianne Miranda [CfA Slack](https://codeforamerica.slack.com/team/U01ASEG8HK5)
    - Communication Designer & UX Researcher 
-      - Raquel Nishijima [CfA Slack](https://codeforamerica.slack.com/team/U01CV3QA2CW)
+      - Raquel Nishijima [CfA Slack](https://codeforamerica.slack.com/team/U01EJ7KMLCV)
    - Data Scientist 
       - Jon Kropko [CfA Slack](https://codeforamerica.slack.com/team/UL9U380TH)
    
