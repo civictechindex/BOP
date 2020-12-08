@@ -22,11 +22,11 @@ For more information the initial SOW and its milestones, refer to: [Brigade Orga
 ---
 
 ### How to Contribute
-   -  Brigade Leaders, UX Researches, and general project people - We need you!  [Please read our BOP Extension Project Getting Involved Guide](https://docs.google.com/document/d/1A2Tyqu4oqQevJa3vlrqeOrGT-jANs6CIbgyOpKKdcds/edit?usp=sharing)
+   -  Brigade Leaders, UX Researchers, and general project people - We need you!  [Please read our BOP Extension Project Getting Involved Guide](https://docs.google.com/document/d/1A2Tyqu4oqQevJa3vlrqeOrGT-jANs6CIbgyOpKKdcds/edit?usp=sharing)
 
 ### Communication channels
 - GitHub: [Project Management Board](https://github.com/codeforamerica/brigade-playbook/projects/1) & [UXR Team Management Board](https://github.com/codeforamerica/brigade-playbook/projects/2)
-- CfA Slack [#bop-share-effective-practice](https://cfa.slack.com/archives/G0196272BBN)
+- CfA Slack [#organizers-playbook](https://cfa.slack.com/archives/G0196272BBN)
 - Email [BOP@hackforla.org](mailto:BOP@hackforla.org) 
 
 ### Project Leadership
@@ -44,7 +44,8 @@ For more information the initial SOW and its milestones, refer to: [Brigade Orga
       - Raquel Nishijima [CfA Slack](https://codeforamerica.slack.com/team/U01EJ7KMLCV)
    - Data Scientist 
       - Jon Kropko [CfA Slack](https://codeforamerica.slack.com/team/UL9U380TH)
-   - Research Analysis Team 
+   - Research Analysis Contributors 
+      - Tan Zhou [CfA Slack](https://codeforamerica.slack.com/team/UPMSC27G8)
       - Helen Lin [CfA Slack](https://codeforamerica.slack.com/team/U01B79J9V9B)
       - Myranda Pierce [CfA Slack](https://codeforamerica.slack.com/team/U01E521NT2L)
       - Reem Mehdoui [CfA Slack](https://codeforamerica.slack.com/team/U01DF6AE5TL)
