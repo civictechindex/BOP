@@ -44,6 +44,10 @@ For more information the initial SOW and its milestones, refer to: [Brigade Orga
       - Raquel Nishijima [CfA Slack](https://codeforamerica.slack.com/team/U01EJ7KMLCV)
    - Data Scientist 
       - Jon Kropko [CfA Slack](https://codeforamerica.slack.com/team/UL9U380TH)
+   - Research Analysis Team 
+      - Helen Lin [CfA Slack](https://codeforamerica.slack.com/team/U01B79J9V9B)
+      - Myranda Pierce [CfA Slack](https://codeforamerica.slack.com/team/U01E521NT2L)
+      - Reem Mehdoui [CfA Slack](https://codeforamerica.slack.com/team/U01DF6AE5TL)
    
 ### Past Contributors, with thanks to:
 - Special Projects Coordinator
