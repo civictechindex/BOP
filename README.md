@@ -38,6 +38,8 @@ For more information the initial SOW and its milestones, refer to: [Brigade Orga
       - Will Pfeffer [email](wpfeffer@codeforamerica.org) or [CfA Slack](https://codeforamerica.slack.com/team/U014MEJV6KT)
    - Product Manager 
       - Sam H. [CfA Slack](https://codeforamerica.slack.com/team/U019C4LERSM)
+   - Product Owner [CfA Slack](https://codeforamerica.slack.com/team/U01FUJ7124S)
+     - Serena Baleja 
    - UX Research Team Lead
       - Marianne Miranda [CfA Slack](https://codeforamerica.slack.com/team/U01ASEG8HK5)
    - Communication Designer & UX Researcher 
