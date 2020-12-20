@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ### Overview
-We need a template issue for each brigade interview so that we can assign and track work effectively.
+For UXR team, we need to process & analyze Interview number [insert number here] in order to complete our analysis phase. 
 
 ### Instructions for working this issue
 Do the action items defined by the checkboxes. Each numbered step is a discrete task. We encourage you to complete all the tasks for this brigade's interview, however, you can stop after any of the numbered tasks.
