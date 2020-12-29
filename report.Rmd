@@ -1,0 +1,131 @@
+---
+title: "Wrangling and Analyzing the 'Brigades' Highest Priorities' Data"
+author: "The Code for American Brigade Organizer's Playbook Development Team"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    number_sections: true
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+The purpose of this document is to describe the process of preparing the data in the "Brigades' Highest Priorities" Google sheet for quantitative analysis.
+
+The interviews that were conducted to update the Brigade Organizer's Playbook (BOP) consist of 22 questions and collect two kinds of data: a interviewee-supplied rating from 0 to 6 and text of the discussion the interviewer and interviewee have about each question, as transcribed by OtterAI and cleaned by our team members. The numeric ratings are responses to the following general question:
+
+> "We would like to learn about your brigade's need for an example or model when carrying out a variety of activities and topics"
+
+The ratings have the following meanings:
+
+* 0 - I don't know
+* 1 - We do this well, we don't need an example
+* 2 - I don’t need an example
+* 3 - An example could be useful
+* 4 - I will need an example in the future
+* 5 - I wish I had an example yesterday
+* 6 - Not having an example has limited my brigade
+
+In addition to the questions with quantitative ratings, the interviews also include introductory discussion and two open-ended questions to conclude the interview. The specific questions are listed below:
+
+| Interview field number | Question                                                                                                                                                                       | Quantitative? | Text? |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|
+| Introduction           | N/A                                                                                                                                                                            | No            | Yes   |
+| 1.0.0                  | Hosting hack nights                                                                                                                                                            | Yes           | Yes   |
+| 1.0.1                  | Days of action (for example, the National Day of Civic Hacking this past September)                                                                                            | Yes           | Yes   |
+| 1.0.2                  | Cultivating government partnerships                                                                                                                                            | Yes           | Yes   |
+| 1.0.3                  | Cultivating community partnerships                                                                                                                                             | Yes           | Yes   |
+| 1.0.4                  | Hosting a workshop to help partners identify user needs                                                                                                                        | Yes           | Yes   |
+| 1.0.5                  | Practicing lean software development                                                                                                                                           | Yes           | Yes   |
+| 1.0.6                  | Conducting user testing                                                                                                                                                        | Yes           | Yes   |
+| 1.0.7                  | Code of Conduct - what happens after the fork - creating strategies for how to deal with Code of Conduct violations                                                            | Yes           | Yes   |
+| 1.0.8                  | Building a core team                                                                                                                                                           | Yes           | Yes   |
+| 1.0.9                  | Drafting a strategic plan for your brigade                                                                                                                                     | Yes           | Yes   |
+| 1.0.10                 | Drafting a strategic plan for a project                                                                                                                                        | Yes           | Yes   |
+| 1.0.11                 | Fundraising                                                                                                                                                                    | Yes           | Yes   |
+| 1.0.12                 | Tools to manage your brigade, for example: Discourse, Google Groups, Meetup, GitHub Issues, and Slack                                                                          | Yes           | Yes   |
+| 1.0.13                 | Developing a brand and media strategy                                                                                                                                          | Yes           | Yes   |
+| 1.0.14                 | Onboarding to the national network                                                                                                                                             | Yes           | Yes   |
+| 1.0.15                 | Guide for how to make open-source projects replicable by other brigades                                                                                                        | Yes           | Yes   |
+| 1.0.16                 | Running a remote brigade                                                                                                                                                       | Yes           | Yes   |
+| 1.0.17                 | How to set and achieve DEI (diversity, equity, and inclusion) goals                                                                                                            | Yes           | Yes   |
+| 1.0.18                 | Connecting people with local government job opportunities                                                                                                                      | Yes           | Yes   |
+| 1.0.19                 | Workforce development (resume help/LinkedIn review, career coaching, guided skill development)                                                                                 | Yes           | Yes   |
+| 1.0.20                 | Are there any topics not in this list that you would like to be covered by future versions of the BOP, and that you would rank as a 5 or 6? Take your time to think about this | No            | Yes   |
+| 1.0.21                 | Do you have any effective processes and practices, large or small, that you would like to provide as a model for other brigades?                                               | No            | Yes   |
+
+The data are stored in Sheet 1 of the [Brigade's Highest Priorities shared Google sheet](https://docs.google.com/spreadsheets/d/1EhoVi9VsI7FQw6Th1Q-7KIz1uyWQBowErSKLc9w8oVo/edit?usp=sharing). This Google sheet is currently being updated and contains the most recent data validated by members of the BOP team. To get the most recent version of the data, I use the `googlesheets4` package which interfaces with the Google Sheets API. That way, I only need to run the code in this document to obtain the most up=to-date data.
+
+```{r}
+1+1
+```
+
+In this document, I load the data into R and I use `tidyverse` to manipulate the data into the form we need to do quantitative analyses and data visualizations. 
+
+# Loading the Data
+I will need the following packages:
+```{r packages, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(DT)
+library(googlesheets4)
+```
+
+Next I load the data using the `read_sheet()` function from `googlesheets4` and supplying the sharing URL. By default, the function downloads Sheet 1, which is where the data we need are stored:
+```{r loaddata, warning=FALSE, message=FALSE}
+data <- read_sheet("https://docs.google.com/spreadsheets/d/1EhoVi9VsI7FQw6Th1Q-7KIz1uyWQBowErSKLc9w8oVo/edit?usp=sharing")
+```
+The data presently look like this:
+```{r datashow}
+datatable(data)
+```
+
+# Manipulating the Data
+## Extracting the Interviewee and Brigade
+The interviewee and the brigade name are both contained in the `Interview ID` column. Fortunately, these datapoints are neatly organized with separating underscores. We can use the `separate()` function from `dplyr` to extract these vairables:
+```{r sep, warning=FALSE}
+data <- data %>%
+  separate(`Interview ID`, 
+           into=c("int_num", "brigade", "int_date", "interviewee", "interviewee2"), 
+           sep="_",)
+```
+The data now look like this:
+```{r datashow2}
+datatable(data)
+```
+
+# Exploring the Data
+
+```{r questiontab, warning=FALSE, message=FALSE}
+data2 <- data %>%
+  mutate(rank0 = (Ranking==0),
+         rank1 = (Ranking==1),
+         rank2 = (Ranking==2),
+         rank3 = (Ranking==3),
+         rank4 = (Ranking==4),
+         rank5 = (Ranking==5),
+         rank6 = (Ranking==6)) %>%
+  group_by(Question) %>%
+  summarize(`Mean ranking` = round(mean(Ranking, na.rm=TRUE),2),
+            `0` = sum(rank0, na.rm=TRUE),
+            `1` = sum(rank1, na.rm=TRUE),
+            `2` = sum(rank2, na.rm=TRUE),
+            `3` = sum(rank3, na.rm=TRUE),
+            `4` = sum(rank4, na.rm=TRUE),
+            `5` = sum(rank5, na.rm=TRUE),
+            `6` = sum(rank6, na.rm=TRUE)) %>%
+    arrange(-`Mean ranking`)
+datatable(data2)
+```
+
+```{r plot1, fig.width=14, fig.height=11}
+g <- ggplot(data, aes(x=Ranking)) +
+  geom_bar() +
+  facet_wrap(~ Question)
+g
+```
