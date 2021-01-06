@@ -1,6 +1,7 @@
 # Brigade Organizer's Playbook Extension Project
 
 ### Overview
+<img src="https://user-images.githubusercontent.com/37763229/94065214-afd7bc00-fd9f-11ea-93c6-6ad264e38b3e.png" width=100 align=”right”>
 The Brigade Organizer’s Playbook (BOP) Extension Project is an initiative of the Code for America National Advisory Council (NAC). 
 
 The BOP Extension Project seeks to build on the existing product and improve its value as a communal, high-value resource for sharing best practices in topic areas such as fundraising, recruiting members, running remote brigades, project management, setting and achieving DEI goals, etc.
