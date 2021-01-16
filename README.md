@@ -31,27 +31,59 @@ For more information the initial SOW and its milestones, refer to: [Brigade Orga
 - Email [BOP@hackforla.org](mailto:BOP@hackforla.org) 
 
 ### Project Leadership
-   - Agile Mentor & CfA National Advisory Council BOP project Co-Lead
-      - Bonnie Wolfe [email](mailto:bonnie@hackforla.org) or [CfA Slack](https://codeforamerica.slack.com/team/UGREE50MT)
-   - CfA National Advisory Council BOP project Co-Lead
-      - Thad K. [email](mailto:bonnie@hackforla.org) or [CfA Slack](https://codeforamerica.slack.com/team/UAU40G31A)
-   - CfA Brigade Network team representative
-      - Will Pfeffer [email](wpfeffer@codeforamerica.org) or [CfA Slack](https://codeforamerica.slack.com/team/U014MEJV6KT)
-   - Product Manager 
-      - Sam H. [CfA Slack](https://codeforamerica.slack.com/team/U019C4LERSM)
-   - Product Owner [CfA Slack](https://codeforamerica.slack.com/team/U01FUJ7124S)
-     - Serena Baleja 
-   - UX Research Team Lead
-      - Marianne Miranda [CfA Slack](https://codeforamerica.slack.com/team/U01ASEG8HK5)
-   - Communication Designer & UX Researcher 
-      - Raquel Nishijima [CfA Slack](https://codeforamerica.slack.com/team/U01EJ7KMLCV)
-   - Data Scientist 
-      - Jon Kropko [CfA Slack](https://codeforamerica.slack.com/team/UL9U380TH)
-   - Research Analysis Contributors 
-      - Tan Zhou [CfA Slack](https://codeforamerica.slack.com/team/UPMSC27G8)
-      - Helen Lin [CfA Slack](https://codeforamerica.slack.com/team/U01B79J9V9B)
-      - Myranda Pierce [CfA Slack](https://codeforamerica.slack.com/team/U01E521NT2L)
-      - Reem Mehdoui [CfA Slack](https://codeforamerica.slack.com/team/U01DF6AE5TL)
+
+   - Name: Bonnie Wolfe 
+      - Role: Agile Mentor & CfA National Advisory Council BOP project Co-Lead
+      - email: [email](mailto:bonnie@hackforla.org)
+      - Slack: [CfA Slack](https://codeforamerica.slack.com/team/UGREE50MT)
+      - Github: experimentsinhonesty      
+   - Name: Thad K.       
+      - Role: CfA National Advisory Council BOP project Co-Lead
+      - email: [email](mailto:thadk@codeforboston.org)
+      - Slack: [CfA Slack](https://codeforamerica.slack.com/team/UAU40G31A)
+      - Github: thadk
+   - Name: Will Pfeffer      
+      - Role: CfA Brigade Network team representative
+      - email: [email](wpfeffer@codeforamerica.org)
+      - Slack: [CfA Slack](https://codeforamerica.slack.com/team/U014MEJV6KT)
+      - Github: willpfeffer      
+   - Name: Sam H.    
+      - Role: Product Manager 
+      - Slack: [CfA Slack](https://codeforamerica.slack.com/team/U019C4LERSM)
+      - Github: thesamwong
+   - Name: Serena Baleja       
+     - Role: Product Owner 
+     - Slack: [CfA Slack](https://codeforamerica.slack.com/team/U01FUJ7124S)
+     - Github: Baleja   
+   - Name: Marianne Miranda
+      - Role: UX Research Team Lead
+      - Slack: [CfA Slack](https://codeforamerica.slack.com/team/U01ASEG8HK5)
+      - Github: MarianneAnthonette      
+   - Name: Raquel Nishijima 
+      - Role: Communication Designer & UX Researcher 
+      - Slack: [CfA Slack](https://codeforamerica.slack.com/team/U01EJ7KMLCV)
+      - Github: raquelnish
+   - Name: Jon Kropko  
+      - Role: Data Scientist 
+   - Name: Jon Kropko 
+      - Slack: [CfA Slack](https://codeforamerica.slack.com/team/UL9U380TH)
+      - Github: jkropko
+   - Name: Tan Zhou 
+      - Role: Research Analysis Contributors 
+     - Slack:  [CfA Slack](https://codeforamerica.slack.com/team/UPMSC27G8)
+      - Github:  tan-zhou
+   - Name: Helen Lin 
+      - Role: Research Analysis Contributors 
+     - Slack:  [CfA Slack](https://codeforamerica.slack.com/team/U01B79J9V9B)
+      - Github:  osnickersnee
+   - Name: Myranda Pierce 
+      - Role: Research Analysis Contributors 
+      - Slack:  [CfA Slack](https://codeforamerica.slack.com/team/U01E521NT2L)
+      - Github:  myrandi   
+   - Name: Reem Mehdoui 
+      - Role: Research Analysis Contributors 
+      - Slack:  [CfA Slack](https://codeforamerica.slack.com/team/U01DF6AE5TL)
+      - Github: reemux
    
 ### Past Contributors, with thanks to:
 - Special Projects Coordinator
