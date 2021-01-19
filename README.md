@@ -69,21 +69,25 @@ For more information the initial SOW and its milestones, refer to: [Brigade Orga
       - Slack: [CfA Slack](https://codeforamerica.slack.com/team/UL9U380TH)
       - Github: jkropko
    - Name: Tan Zhou 
-      - Role: Research Analysis Contributors 
+      - Role: Research Analysis Contributor 
      - Slack:  [CfA Slack](https://codeforamerica.slack.com/team/UPMSC27G8)
       - Github:  tan-zhou
    - Name: Helen Lin 
-      - Role: Research Analysis Contributors 
+      - Role: Research Analysis Contributor 
      - Slack:  [CfA Slack](https://codeforamerica.slack.com/team/U01B79J9V9B)
       - Github:  osnickersnee
    - Name: Myranda Pierce 
-      - Role: Research Analysis Contributors 
+      - Role: Research Analysis Contributor 
       - Slack:  [CfA Slack](https://codeforamerica.slack.com/team/U01E521NT2L)
       - Github:  myrandi   
    - Name: Reem Mehdoui 
-      - Role: Research Analysis Contributors 
+      - Role: Research Analysis Contributor 
       - Slack:  [CfA Slack](https://codeforamerica.slack.com/team/U01DF6AE5TL)
       - Github: reemux
+   - Name: Mark Gothard 
+      - Role: Research Analysis Contributor 
+      - Slack:  [CfA Slack](https://codeforamerica.slack.com/team/U01JFLA8XE2)
+      - Github: mgoth
    
 ### Past Contributors, with thanks to:
 - Special Projects Coordinator
