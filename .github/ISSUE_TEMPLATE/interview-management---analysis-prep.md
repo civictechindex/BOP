@@ -1,29 +1,31 @@
 ---
-name: Interview Priority Analysis
-about: Task items and resources for performing analysis
-title: 'Interview Priority Analysis: [Number of Interview]'
+name: Interview management & analysis prep
+about: Task items for post interview schedule up to priority analysis
+title: 'Interview management & analysis prep: [Number of Interview]'
 labels: ''
 assignees: ''
 
 ---
 
 ### Overview
-For UXR team, we need to process & analyze Interview number [insert number here] in order to complete our analysis phase. 
+This template will direct the order of which our interview process will be managed & prepares the interview content for the analysis team. 
 
 ### Instructions for working this issue
 Do the action items defined by the checkboxes. Each numbered step is a discrete task. We encourage you to complete all the tasks for this brigade's interview, however, you can stop after any of the numbered tasks.
 
 ### Action Items
 
-- [ ] This brigade interview needs the following work done:
-     - [ ] 1. Transcription verification
-          - [ ] Add data organization label & remove transcription verification label.
-     - [ ] 2. Data organization
-          - [ ] Add coding label & remove data organization label.
-     - [ ] 3. Coding
-          - [ ] Add tagging label & remove coding label.
-     - [ ] 4. Tagging
-
+- [ ] This brigade interview needs the following steps done:
+     - [ ] 1. Interview Scheduling
+          - [ ] Add OtterAI Set-Up label & remove Interview Scheduling label.
+     - [ ] 2. OtterAI Set-Up
+          - [ ] Add Create and Update 1 label & remove OtterAI Set-Up label.
+     - [ ] 3. Create and Update 1: Transcription Sheet 
+          - [ ] Add Pre-fill Transcription Sheets label & remove Create and Update 1 label.
+     - [ ] 4. Pre-fill Transcription Sheets
+          - [ ] Add Create and Update 2 label & remove Pre-fill Transcription Sheets label.
+     - [ ] 5. Create and Update 2: GitHub Issue and P&P
+     
 ### Reporting progress
 - Be sure to check the box when you finish an action item.
 - Report your progress weekly in a comment below using the following format:
@@ -31,7 +33,7 @@ Do the action items defined by the checkboxes. Each numbered step is a discrete 
      - Blockers: 
      - Availability :
      - Estimated date of completion:
-
+     
 ### Stopping mid issue 
 #### Reasons: 
 - Got personally busy, can’t finish
@@ -41,7 +43,6 @@ Do the action items defined by the checkboxes. Each numbered step is a discrete 
 - Note your progress in the checkboxes 
 - Add a note in the comments with details
 - Move the issue to the questions/review column 
-
 ### Resources/Instructions
 [Interview Data Sheet][insert url]
 [Transcription Verification Instructions](https://docs.google.com/document/d/1kTrslqYY0whUjCMxbcV7Ft1nzCr_UTPWXfhomNgOvEw/edit)
