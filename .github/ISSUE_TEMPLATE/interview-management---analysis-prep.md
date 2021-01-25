@@ -43,9 +43,11 @@ Do the action items defined by the checkboxes. Each numbered step is a discrete 
 - Note your progress in the checkboxes 
 - Add a note in the comments with details
 - Move the issue to the questions/review column 
+
 ### Resources/Instructions
-[Interview Data Sheet][insert url]
-[Transcription Verification Instructions](https://docs.google.com/document/d/1kTrslqYY0whUjCMxbcV7Ft1nzCr_UTPWXfhomNgOvEw/edit)
-[Data Organization Instructions](https://docs.google.com/document/d/1vJqDQ8Th8kSgisSSiMzDpRHTIWI3ILCX4eOTgMwRdoY/edit)
-[Coding Instructions](https://docs.google.com/document/u/0/d/10am6Ki0gJKzITt2kcjMsR233oC_9WJneKnFimFc8Mao/edit)
-[Tagging Instructions](https://docs.google.com/document/d/1soNmLMyVspkgz2MMD5DuF_WVBBmnFLFgCPNZDjxjDWI/edit#)
+[Research coordination instructions folder](https://drive.google.com/drive/u/1/folders/1fjav4S1_YO8s6-4-K6JEHzdGQJt8eQmT)
+[Interview Scheduling](https://docs.google.com/document/d/1cMJIZpYGqWACtk7zEoS5Pj5RKwiUioVj_agzZKKICyc/edit#)
+[OtterAI Set-up](https://docs.google.com/document/d/1OfbbleSugZegpgblxL6xC8v_sUGIS58T8X13RRC4VQ0/edit#)
+[Create and Update 1: Transcription Sheet](https://docs.google.com/document/d/1ZSo1-XfC6gpXT6snyw7UcEororeaZN-lj4UfptcsJ8k/edit?usp=drive_web&ouid=116699334996809624012)
+[Pre-fill Transcription Sheets](https://docs.google.com/document/d/1hdOMIFVPTwg_1PmSeUhg-BTpw4HXO2aVDflLXNY754M/edit#)
+[Create and Update 2: GitHub Issue and P&P](https://docs.google.com/document/d/1peMLcR1PvPstgctPQgVemS8bD10olch_7-Y7fxY_P58/edit)
