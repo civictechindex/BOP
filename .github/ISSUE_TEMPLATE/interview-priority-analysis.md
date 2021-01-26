@@ -48,7 +48,7 @@ Do the action items defined by the checkboxes. Each numbered step is a discrete 
 ### Unassigning yourself from this issue
 If you are finished with one Action Item and you are not going to do the next one
 - [ ] Move this issue from the ‘In progress’ to the ‘Prioritized Backlog’(see animated GIF below) 
-- [ ] Go to the gear icon on the top right at  'Assignees' and de-select your GitHub Handle (see animated GIF below) 
+- [ ] Unassign yourself from this issue (see animated GIF below) 
 
 ### Resources/Instructions
 [Interview Data Sheet][insert url]
