@@ -46,7 +46,7 @@ Do the action items defined by the checkboxes. Each numbered step is a discrete 
 - Move the issue to the questions/review column 
 
 ### Unassigning yourself from this issue
-If you are finished with one Action Item and you are not going to do the next one
+If you are finished with one of the 4 Action Items and you are not going to do the next one
 - [ ] Move this issue from the ‘In progress’ to the ‘Prioritized Backlog’(see animated GIF below) 
 - [ ] Unassign yourself from this issue (see animated GIF below) 
 
