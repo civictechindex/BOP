@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+### Interview length
+ [insert minutes here] 
+
 ### Overview
 For UXR team, we need to process & analyze Interview number [insert number here] in order to complete our analysis phase. 
 
@@ -39,7 +42,7 @@ Do the action items defined by the checkboxes. Each numbered step is a discrete 
 #### Reasons: 
 - Got personally busy, can’t finish
 -  Only want to do a specific type of task per interview
-- There is a blocker (e.g. instructions not ready yet) in the way of finishing and I still have time to work on other issues 
+- There is a blocker in the way of finishing and I still have time to work on other issues 
 #### What to do if you have to stop working mid issue:
 - Note your progress in the checkboxes 
 - Add a note in the comments with details
