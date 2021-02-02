@@ -2,8 +2,8 @@
 name: Interview Management & Analysis Prep
 about: Task items for post interview schedule up to priority analysis
 title: 'Interview Management & Analysis Prep: [number of interview]'
-labels: ''
-assignees: ''
+labels: 'IP: Interview Scheduling'
+assignees: MarianneAnthonette
 
 ---
 
