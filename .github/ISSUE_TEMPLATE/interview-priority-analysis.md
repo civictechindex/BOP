@@ -21,11 +21,11 @@ Do the action items defined by the checkboxes. Each numbered step is a discrete 
 - [ ] Move this issue from the ‘Prioritized Backlog’ to ‘In progress’ (see animated GIF below) 
 #### This brigade interview needs the following work done:
 - [ ] 1. Transcription verification 
-    - [ ]  Add data organization label & remove transcription verification label
+    - [ ]  Add PA Data organization label & remove PA Transcription verification label
 - [ ] 2. Data organization
-    - [ ]  Add coding label & remove data organization label.
+    - [ ]  Add PA coding label & remove PA Data organization label.
 - [ ]  3. Coding
-    - [ ]  Add tagging label & remove coding label.
+    - [ ]  Add PA Tagging label & remove PA Coding label.
 - [ ] 4. Tagging 
    - [ ]  Mark this issue as Done by clicking the button on the bottom of the issue  
 ![Screen Shot 2021-01-26 at 10 41 35 AM](https://user-images.githubusercontent.com/37763229/105889502-16c1e780-5fc3-11eb-8473-f2319059c719.png)
