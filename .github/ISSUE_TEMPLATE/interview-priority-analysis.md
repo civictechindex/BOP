@@ -2,7 +2,7 @@
 name: Interview Priority Analysis
 about: Task items and resources for performing analysis
 title: 'Interview Priority Analysis: [Number of Interview]'
-labels: ''
+labels: 'PA: Transcription Verification'
 assignees: ''
 
 ---
@@ -55,7 +55,7 @@ If you are finished with one of the 4 Action Items and you are not going to do t
 
 ### Resources/Instructions
 [Interview Data Sheet][insert url]
-[Transcription Verification Instructions](https://docs.google.com/document/d/1kTrslqYY0whUjCMxbcV7Ft1nzCr_UTPWXfhomNgOvEw/edit)
+[Transcription Verification Instructions](https://docs.google.com/document/d/1mmwozE1kpQCG3O6eSEO1BSyHeSbX7xeT9pYZZBEl98o/edit#)
 [Data Organization Instructions](https://docs.google.com/document/d/1vJqDQ8Th8kSgisSSiMzDpRHTIWI3ILCX4eOTgMwRdoY/edit)
 [Coding Instructions](https://docs.google.com/document/u/0/d/10am6Ki0gJKzITt2kcjMsR233oC_9WJneKnFimFc8Mao/edit)
 [Tagging Instructions](https://docs.google.com/document/d/1soNmLMyVspkgz2MMD5DuF_WVBBmnFLFgCPNZDjxjDWI/edit#)
