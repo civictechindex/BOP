@@ -2,7 +2,7 @@
 name: Blank issue template
 about: Provide a framework for consistent issue creation
 title: ''
-labels: ''
+labels: 'feature: missing, role: missing, size: missing'
 assignees: ''
 
 ---
